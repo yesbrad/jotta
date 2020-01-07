@@ -46,14 +46,18 @@ import DraggableFlatList from 'react-native-draggable-flatlist'
 				<JotWrapper>
 				<DraggableFlatList
 						data={jotLists[selectedJotList].jots}
-						renderItem={renderItem}
+						renderItem={JotItem}
 						keyExtractor={(item, index) => `draggable-item-${item.id}`}
 						scrollPercent={5}
 						onDragEnd={({ data }) => EditJot(data)}
 					/>
 				</JotWrapper>
 				<AddJotWrapper>
-					<AddJotText value={currentJot} onChange={(event) => setCurrentJot(event.nativeEvent.text)} />
+					<AddJotText
+						value={currentJot}
+						placeholder="Add your jot here.."
+						onChange={(event) => setCurrentJot(event.nativeEvent.text)}
+					/>
 					<AddJotButton onPress={onAddJot}/>
 				</AddJotWrapper>
 			</Container>

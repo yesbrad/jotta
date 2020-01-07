@@ -1,10 +1,13 @@
 import React from 'react';
-import {Container, Heading} from './styles';
+import {Container, Heading, Wrapper, MoveIconWrapper} from './styles';
 
-const JotItem = ({key, index, data, disabled, active}) => {
+const JotItem = ({ item, index, drag, isActive }) => {
 	return (
 		<Container onLongPress={drag} isActive={isActive}>
-			<Heading>{data}</Heading>
+			<Wrapper>
+				<Heading>{item.jot}</Heading>
+				<MoveIconWrapper></MoveIconWrapper>
+			</Wrapper>
 		</Container>
 	);
 };
