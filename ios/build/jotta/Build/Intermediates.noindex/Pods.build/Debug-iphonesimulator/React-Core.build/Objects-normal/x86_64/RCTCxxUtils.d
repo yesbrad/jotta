@@ -88,6 +88,8 @@ dependencies: \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTUtils.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTAssert.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTDefines.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTPackagerConnection.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-cxxreact/cxxreact/CxxNativeModule.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-cxxreact/cxxreact/CxxModule.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-cxxreact/cxxreact/NativeModule.h \

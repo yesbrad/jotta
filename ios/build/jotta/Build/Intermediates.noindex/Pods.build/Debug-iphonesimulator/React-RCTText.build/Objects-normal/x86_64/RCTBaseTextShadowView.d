@@ -6,6 +6,8 @@ dependencies: \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTComponent.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTLayout.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \

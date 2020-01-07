@@ -5,6 +5,8 @@ dependencies: \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTJavaScriptExecutor.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTBridgeModule.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTDefines.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTPackagerConnection.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTInvalidating.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-cxxreact/cxxreact/MessageQueueThread.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTCxxUtils.h \

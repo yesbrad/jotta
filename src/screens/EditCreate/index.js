@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react';
 import { Container, AddButton, AddButtonWrapper, AddButtonText, NameInput } from './styles';
 import { useStoreActions, useStoreState } from 'easy-peasy';
 import Header from '../../components/Header';
-import BackButton from '../../components/BackButton';
+import BackButton from '../../components/HeaderButton';
 import { DefaultJotList } from '../../constants';
 
 const List = ({ navigation }) => {
@@ -39,7 +39,7 @@ const List = ({ navigation }) => {
 	};
 
 	return (
-		<Header leftButton={() => <BackButton onPress={() => navigation.goBack()}/>}>
+		<Header leftButton={() => <BackButton icon="ios-arrow-back" onPress={() => navigation.goBack()}/>}>
 			<Container>
 				<NameInput value={jotData.title} onChange={e => setJotData({ ...jotData, title: e.nativeEvent.text})}/>
 			</Container>

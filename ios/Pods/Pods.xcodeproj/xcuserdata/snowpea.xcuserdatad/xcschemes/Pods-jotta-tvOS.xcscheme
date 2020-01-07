@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "172FCD3F03916D4CD59900CFA1384C5D"
+               BlueprintIdentifier = "9D6E64D223352B6F3018E3C2B467020E"
+               BuildableName = "libPods-jotta-tvOS.a"
                BlueprintName = "Pods-jotta-tvOS"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-jotta-tvOS.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

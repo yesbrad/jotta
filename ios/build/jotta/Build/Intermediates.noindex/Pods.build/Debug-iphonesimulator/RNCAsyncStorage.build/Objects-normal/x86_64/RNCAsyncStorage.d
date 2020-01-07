@@ -4,6 +4,8 @@ dependencies: \
   /Users/snowpea/jotta/node_modules/@react-native-community/async-storage/ios/RNCAsyncStorage.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h \
   /Users/snowpea/jotta/node_modules/@react-native-community/async-storage/ios/RNCAsyncStorageDelegate.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h \

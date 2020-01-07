@@ -36,6 +36,8 @@ export const AddJotButton = styled.TouchableOpacity`
 	/* flex: 1; */
 	background: ${props => props.theme.brandColor};;
 	border-radius: 30px;
+	justify-content: center;
+	align-items: center;
 `;
 
 export const Text = styled.Text`

@@ -4,11 +4,10 @@ import { Container, AddButton, ListContainer, AddButtonHeader } from './styles';
 import { useStoreActions, useStoreState } from 'easy-peasy';
 import JotListItem from '../../components/JotListItem';
 import Header from '../../components/Header';
+import HeaderButton from '../../components/HeaderButton';
 
 const List = ({ navigation }) => {
-	const AddJotList = useStoreActions(actions => actions.jots.addJotList);
 	const LoadJotList = useStoreActions(actions => actions.jots.loadJotLists);
-	const SaveJotLists = useStoreActions(actions => actions.jots.saveJotLists);
 	const SelectJotList = useStoreActions(actions => actions.jots.selectJotList);
 	const jotLists = useStoreState(state => state.jots.jotLists);
 
@@ -24,26 +23,13 @@ const List = ({ navigation }) => {
 		return items;
 	};
 
-	const onAddJotList = () => {
-		AddJotList();
-		SaveJotLists(jotLists);
-	};
-
 	const onEditJotList = (uuid) => {
 		SelectJotList(uuid);
 		navigation.navigate('Order');
 	};
 
-	const renderAddButton = () => {
-		return (
-			<AddButtonHeader onPress={() => navigation.navigate('EditCreate')}>
-
-			</AddButtonHeader>
-		);
-	}
-
 	return (
-		<Header rightButton={renderAddButton}>
+		<Header rightButton={() => <HeaderButton icon="md-add" onPress={() => navigation.navigate('EditCreate')}/>}>
 			<Container>
 				<ListContainer>
 					{RenderJotLists()}

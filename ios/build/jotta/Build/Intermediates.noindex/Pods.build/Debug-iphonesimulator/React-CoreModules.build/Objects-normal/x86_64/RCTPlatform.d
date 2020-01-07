@@ -4,6 +4,8 @@ dependencies: \
   /Users/snowpea/jotta/node_modules/react-native/React/CoreModules/RCTPlatform.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/RCTRequired/RCTRequired/RCTRequired.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/RCTTypeSafety/RCTTypeSafety/RCTConvertHelpers.h \

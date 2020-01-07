@@ -5,6 +5,8 @@ dependencies: \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTFrameUpdate.h \
   /Users/snowpea/jotta/node_modules/react-native/React/Base/RCTAssert.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTDefines.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTPackagerConnection.h \
   /Users/snowpea/jotta/node_modules/react-native/React/Base/RCTBridge.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTBridgeDelegate.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTJavaScriptLoader.h \

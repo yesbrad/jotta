@@ -7,6 +7,8 @@ dependencies: \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h \
   /Users/snowpea/jotta/node_modules/react-native/React/Base/RCTAssert.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTDefines.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTPackagerConnection.h \
   /Users/snowpea/jotta/node_modules/react-native/React/Views/RCTShadowView+Layout.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTShadowView.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTComponent.h \

@@ -6,4 +6,7 @@ dependencies: \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTBorderStyle.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTComponent.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTPointerEvents.h \
-  /Users/snowpea/jotta/node_modules/react-native/React/Base/RCTDefines.h
+  /Users/snowpea/jotta/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/snowpea/jotta/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTPackagerConnection.h

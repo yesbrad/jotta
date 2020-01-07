@@ -9,6 +9,9 @@ import Store from './src/store';
 //Theme
 import {MainTheme} from './src/themes/Main';
 
+import Icon from 'react-native-vector-icons/Ionicons';
+Icon.loadFont();
+
 const App = () => {
   return (
     <StoreProvider store={Store}>

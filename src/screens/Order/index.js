@@ -3,11 +3,12 @@ import React, {useState, useEffect} from 'react';
 import { Text, Button, Container, JotWrapper, AddJotWrapper, AddJotText, AddJotButton } from './styles';
 import { useStoreState, useStoreActions } from 'easy-peasy';
 import JotItem from '../../components/JotItem';
-import BackButton from '../../components/BackButton';
+import BackButton from '../../components/HeaderButton';
 
 import { View, TouchableOpacity } from 'react-native'
 import DraggableFlatList from 'react-native-draggable-flatlist'
 import Header from '../../components/Header';
+import JIcon from '../../components/JIcon';
 
 const Order = ({ navigation }) => {
 	const jotLists = useStoreState(state => state.jots.jotLists);
@@ -36,8 +37,8 @@ const Order = ({ navigation }) => {
 	
 	return (
 		<Header 
-			leftButton={() => <BackButton onPress={() => DeselectJotList()} />}
-			rightButton={() => <BackButton onPress={() => navigation.navigate('EditCreate', { CurrentJot: jotLists[selectedJotList]})} />}
+			leftButton={() => <BackButton icon="ios-arrow-back" onPress={() => DeselectJotList()} />}
+			rightButton={() => <BackButton icon="md-settings" onPress={() => navigation.navigate('EditCreate', { CurrentJot: jotLists[selectedJotList]})} />}
 		>
 			<Container>
 				<JotWrapper>
@@ -55,7 +56,9 @@ const Order = ({ navigation }) => {
 						placeholder="Add your jot here.."
 						onChange={(event) => setCurrentJot(event.nativeEvent.text)}
 					/>
-					<AddJotButton onPress={onAddJot}/>
+					<AddJotButton onPress={onAddJot}>
+						<JIcon icon="md-arrow-round-forward" size={30} color="white" />
+					</AddJotButton>
 				</AddJotWrapper>
 			</Container>
 		</Header>

@@ -5,6 +5,8 @@ dependencies: \
   /Users/snowpea/jotta/node_modules/react-native/React/Base/Surface/RCTSurfaceView+Internal.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTSurfaceStage.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTDefines.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTPackagerConnection.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTSurfaceView.h \
   /Users/snowpea/jotta/node_modules/react-native/React/Base/RCTDefines.h \
   /Users/snowpea/jotta/node_modules/react-native/React/Base/Surface/RCTSurface.h \

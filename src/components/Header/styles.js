@@ -31,7 +31,7 @@ export const HeaderText = styled.Text`
 
 export const HeaderButtonContainer = styled.View`
 	height: 100%;
-	max-width: 60px;
+	max-width: 80px;
 	flex:1;
 	/* border: 1px; */
 	align-items: center;

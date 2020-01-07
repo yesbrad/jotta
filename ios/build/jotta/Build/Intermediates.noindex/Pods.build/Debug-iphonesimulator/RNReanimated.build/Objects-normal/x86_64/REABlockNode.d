@@ -6,6 +6,8 @@ dependencies: \
   /Users/snowpea/jotta/node_modules/react-native-reanimated/ios/REANodesManager.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTUIManager.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \

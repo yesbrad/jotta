@@ -17,6 +17,8 @@ dependencies: \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/RCTTypeSafety/RCTTypeSafety/RCTTypedModuleConstants.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTCxxConvert.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/React-Core/React/RCTManagedPointer.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Public/ReactCommon/ReactCommon/RCTTurboModule.h \

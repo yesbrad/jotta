@@ -5,6 +5,8 @@ dependencies: \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTViewManager.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTBridgeModule.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTDefines.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTPackagerConnection.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTConvert.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTAnimationType.h \
   /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTBorderStyle.h \
