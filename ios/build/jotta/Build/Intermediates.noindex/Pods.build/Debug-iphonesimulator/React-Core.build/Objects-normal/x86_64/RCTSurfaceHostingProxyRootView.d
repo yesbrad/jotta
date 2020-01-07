@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/snowpea/jotta/node_modules/react-native/React/Base/Surface/SurfaceHostingView/RCTSurfaceHostingProxyRootView.mm \
+  /Users/snowpea/jotta/ios/Pods/Target\ Support\ Files/React-Core/React-Core-prefix.pch \
+  /Users/snowpea/jotta/node_modules/react-native/React/Base/Surface/SurfaceHostingView/RCTSurfaceHostingProxyRootView.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTRootView.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTBridge.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTBridgeDelegate.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTJavaScriptLoader.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTDefines.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTBridgeModule.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTFrameUpdate.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTInvalidating.h \
+  /Users/snowpea/jotta/node_modules/react-native/React/Base/Surface/SurfaceHostingView/RCTSurfaceHostingView.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTSurfaceDelegate.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTSurfaceStage.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTSurfaceSizeMeasureMode.h \
+  /Users/snowpea/jotta/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/snowpea/jotta/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/snowpea/jotta/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTAssert.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTUtils.h \
+  /Users/snowpea/jotta/node_modules/react-native/React/Base/RCTPerformanceLogger.h \
+  /Users/snowpea/jotta/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/snowpea/jotta/node_modules/react-native/React/Base/RCTRootContentView.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTView.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTBorderStyle.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTComponent.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Private/React-Core/React/RCTPointerEvents.h \
+  /Users/snowpea/jotta/node_modules/react-native/React/Base/RCTRootViewDelegate.h \
+  /Users/snowpea/jotta/node_modules/react-native/React/Base/Surface/RCTSurface.h \
+  /Users/snowpea/jotta/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Users/snowpea/jotta/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h
