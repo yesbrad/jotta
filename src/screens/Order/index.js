@@ -15,11 +15,19 @@ import Header from '../../components/Header';
 		const selectedJotList = useStoreState(state => state.jots.selectedJotList);
 		const AddJot = useStoreActions(actions => actions.jots.addJot);
 		const EditJot = useStoreActions(actions => actions.jots.editJot);
+		const SaveJotLists = useStoreActions(actions => actions.jots.saveJotLists);
 		const [currentJot, setCurrentJot] = useState('');
 		let order = jotLists[selectedJotList].jots; //Array of keys
 
 		const onAddJot = () => {
 			AddJot(currentJot);
+			SaveJotLists(jotLists);
+			setCurrentJot('');
+		}
+
+		const onEditJot = (data) => {
+			EditJot(data);
+			SaveJotLists(jotLists);
 		}
 
 		return (
@@ -31,7 +39,7 @@ import Header from '../../components/Header';
 							renderItem={JotItem}
 							keyExtractor={(item, index) => `draggable-item-${item.id}`}
 							scrollPercent={5}
-							onDragEnd={({ data }) => EditJot(data)}
+							onDragEnd={({ data }) => onEditJot(data)}
 						/>
 					</JotWrapper>
 					<AddJotWrapper>

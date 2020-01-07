@@ -15,7 +15,7 @@ const appNavigator = createStackNavigator({
 	Order: {
 		screen: Order,
 		navigationOptions: {
-			header: null
+			headerShown: false
 		}
 	},
 });

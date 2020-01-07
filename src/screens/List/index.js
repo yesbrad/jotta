@@ -7,11 +7,13 @@ import Header from '../../components/Header';
 
 const List = ({ navigation }) => {
 	const AddJotList = useStoreActions(actions => actions.jots.addJotList);
+	const LoadJotList = useStoreActions(actions => actions.jots.loadJotLists);
+	const SaveJotLists = useStoreActions(actions => actions.jots.saveJotLists);
 	const SelectJotList = useStoreActions(actions => actions.jots.selectJotList);
 	const jotLists = useStoreState(state => state.jots.jotLists);
 
 	useEffect(() => {
-		AddJotList();
+		LoadJotList();
 	}, []);
 
 	const RenderJotLists = () => {
@@ -24,6 +26,7 @@ const List = ({ navigation }) => {
 
 	const onAddJotList = () => {
 		AddJotList();
+		SaveJotLists(jotLists);
 	};
 
 	const onEditJotList = (uuid) => {
