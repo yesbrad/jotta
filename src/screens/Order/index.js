@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import React, {useState, useEffect} from 'react';
-import { Text, Button, Container, JotWrapper, AddJotWrapper, AddJotText, AddJotButton } from './styles';
+import { Text, Button, Container, JotWrapper, AddJotWrapper, AddJotText, AddJotButton, KeyboardAvoidingView } from './styles';
 import { useStoreState, useStoreActions } from 'easy-peasy';
 import JotItem from '../../components/JotItem';
 import BackButton from '../../components/HeaderButton';
@@ -40,27 +40,29 @@ const Order = ({ navigation }) => {
 			leftButton={() => <BackButton icon="ios-arrow-back" onPress={() => DeselectJotList()} />}
 			rightButton={() => <BackButton icon="md-settings" onPress={() => navigation.navigate('EditCreate', { CurrentJot: jotLists[selectedJotList]})} />}
 		>
-			<Container>
-				<JotWrapper>
-				{jotLists[selectedJotList] && <DraggableFlatList
-						data={jotLists[selectedJotList].jots}
-						renderItem={JotItem}
-						keyExtractor={(item, index) => `draggable-item-${item.id}`}
-						scrollPercent={5}
-						onDragEnd={({ data }) => onEditJot(data)}
-					/>}
-				</JotWrapper>
-				<AddJotWrapper>
-					<AddJotText
-						value={currentJot}
-						placeholder="Add your jot here.."
-						onChange={(event) => setCurrentJot(event.nativeEvent.text)}
-					/>
-					<AddJotButton onPress={onAddJot}>
-						<JIcon icon="md-arrow-round-forward" size={30} color="white" />
-					</AddJotButton>
-				</AddJotWrapper>
-			</Container>
+			<KeyboardAvoidingView keyboardVerticalOffset={70} behavior="padding" enabled>
+				<Container>
+					<JotWrapper>
+					{jotLists[selectedJotList] && <DraggableFlatList
+							data={jotLists[selectedJotList].jots}
+							renderItem={JotItem}
+							keyExtractor={(item, index) => `draggable-item-${item.id}`}
+							scrollPercent={5}
+							onDragEnd={({ data }) => onEditJot(data)}
+							/>}
+					</JotWrapper>
+					<AddJotWrapper>
+						<AddJotText
+							value={currentJot}
+							placeholder="Add your jot here.."
+							onChange={(event) => setCurrentJot(event.nativeEvent.text)}
+						/>
+						<AddJotButton onPress={onAddJot}>
+							<JIcon icon="md-arrow-round-forward" size={30} color="white" />
+						</AddJotButton>
+					</AddJotWrapper>
+				</Container>
+			</KeyboardAvoidingView>
 		</Header>
 	)
 }

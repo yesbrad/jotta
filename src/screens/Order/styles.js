@@ -10,13 +10,14 @@ export const JotWrapper = styled.View`
 	width: 100%;
 	height: 100%;
 	flex: 1;
+	/* border: 1px; */
 `;
 
 export const AddJotWrapper = styled.View`
 	width: 100%;
-	height: 60px;
+	height: 50px;
 	flex-direction: row;
-	padding: 0 20px;
+	padding: 0 10px;
 	margin-bottom: 30px;
 `;
 
@@ -31,8 +32,8 @@ export const AddJotText = styled.TextInput`
 `;
 
 export const AddJotButton = styled.TouchableOpacity`
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	/* flex: 1; */
 	background: ${props => props.theme.brandColor};;
 	border-radius: 30px;
@@ -48,4 +49,8 @@ export const Button = styled.TouchableOpacity`
 	width: 100px;
 	height: 50px;
 	background: red;
+`;
+
+export const KeyboardAvoidingView = styled.KeyboardAvoidingView`
+	flex: 1;
 `;

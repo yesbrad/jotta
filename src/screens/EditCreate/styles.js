@@ -8,8 +8,9 @@ export const Container = styled.View`
 
 export const AddButtonWrapper = styled.View`
 	width: 100%;
-	height: 100px;
+	height: 80px;
 	padding: 10px 30px;
+	margin-bottom: 30px;
 `;
 
 export const AddButton = styled.TouchableOpacity`
@@ -22,10 +23,16 @@ export const AddButton = styled.TouchableOpacity`
 
 export const AddButtonText = styled.Text`
 	color: ${props => props.theme.white};
+	font-size: 18px;
+	font-weight: 700;
 `;
 
 export const NameInput = styled.TextInput`
 	width: 100%;
 	height: 50px;
 	background: ${props => props.theme.lightGray};
+`;
+
+export const KeyboardAvoidingView = styled.KeyboardAvoidingView`
+	flex: 1;
 `;

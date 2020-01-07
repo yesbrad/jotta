@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import React, {useEffect, useState} from 'react';
-import { Container, AddButton, AddButtonWrapper, AddButtonText, NameInput } from './styles';
+import { Container, AddButton, AddButtonWrapper, AddButtonText, NameInput, KeyboardAvoidingView } from './styles';
 import { useStoreActions, useStoreState } from 'easy-peasy';
 import Header from '../../components/Header';
 import BackButton from '../../components/HeaderButton';
@@ -40,12 +40,14 @@ const List = ({ navigation }) => {
 
 	return (
 		<Header leftButton={() => <BackButton icon="ios-arrow-back" onPress={() => navigation.goBack()}/>}>
-			<Container>
-				<NameInput value={jotData.title} onChange={e => setJotData({ ...jotData, title: e.nativeEvent.text})}/>
-			</Container>
-			<AddButtonWrapper>
-		<AddButton onPress={onAddPressed}><AddButtonText>{isEditing ? 'Edit' : 'Add'}</AddButtonText></AddButton>
-			</AddButtonWrapper>
+			<KeyboardAvoidingView  keyboardVerticalOffset={70} behavior="padding" enabled>
+				<Container>
+					<NameInput value={jotData.title} onChange={e => setJotData({ ...jotData, title: e.nativeEvent.text})}/>
+				</Container>
+				<AddButtonWrapper>
+					<AddButton onPress={onAddPressed}><AddButtonText>{isEditing ? 'Edit' : 'Add'}</AddButtonText></AddButton>
+				</AddButtonWrapper>
+			</KeyboardAvoidingView>
 		</Header>
 	);
 };
