@@ -8,6 +8,7 @@
 
 	import { View, TouchableOpacity } from 'react-native'
 import DraggableFlatList from 'react-native-draggable-flatlist'
+import Header from '../../components/Header';
 
 	const Order = ({ navigation }) => {
 		const jotLists = useStoreState(state => state.jots.jotLists);
@@ -21,46 +22,28 @@ import DraggableFlatList from 'react-native-draggable-flatlist'
 			AddJot(currentJot);
 		}
 
-		const renderItem = ({ item, index, drag, isActive }) => {
-			return (
-				<TouchableOpacity
-					style={{ 
-						height: 100, 
-						backgroundColor: isActive ? 'blue' : 'purple',
-						alignItems: 'center', 
-						justifyContent: 'center' 
-					}}
-					onLongPress={drag}
-				>
-					<Text style={{ 
-						fontWeight: 'bold', 
-						color: 'white',
-						fontSize: 32,
-					}}>{item.jot}</Text>
-				</TouchableOpacity>
-			)
-		}
-
 		return (
-			<Container>
-				<JotWrapper>
-				<DraggableFlatList
-						data={jotLists[selectedJotList].jots}
-						renderItem={JotItem}
-						keyExtractor={(item, index) => `draggable-item-${item.id}`}
-						scrollPercent={5}
-						onDragEnd={({ data }) => EditJot(data)}
-					/>
-				</JotWrapper>
-				<AddJotWrapper>
-					<AddJotText
-						value={currentJot}
-						placeholder="Add your jot here.."
-						onChange={(event) => setCurrentJot(event.nativeEvent.text)}
-					/>
-					<AddJotButton onPress={onAddJot}/>
-				</AddJotWrapper>
-			</Container>
+			<Header>
+				<Container>
+					<JotWrapper>
+					<DraggableFlatList
+							data={jotLists[selectedJotList].jots}
+							renderItem={JotItem}
+							keyExtractor={(item, index) => `draggable-item-${item.id}`}
+							scrollPercent={5}
+							onDragEnd={({ data }) => EditJot(data)}
+						/>
+					</JotWrapper>
+					<AddJotWrapper>
+						<AddJotText
+							value={currentJot}
+							placeholder="Add your jot here.."
+							onChange={(event) => setCurrentJot(event.nativeEvent.text)}
+						/>
+						<AddJotButton onPress={onAddJot}/>
+					</AddJotWrapper>
+				</Container>
+			</Header>
 		)
 	}
 

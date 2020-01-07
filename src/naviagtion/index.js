@@ -8,9 +8,15 @@ import Order from '../screens/Order';
 const appNavigator = createStackNavigator({
 	List: {
 		screen: List,
+		navigationOptions: {
+			headerShown: false
+		}
 	},
 	Order: {
 		screen: Order,
+		navigationOptions: {
+			header: null
+		}
 	},
 });
 

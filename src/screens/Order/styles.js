@@ -28,6 +28,7 @@ export const AddJotText = styled.TextInput`
 	border-radius: 30px;
 	margin-right: 10px;
 	padding-left:15px;
+	asdas;d
 `;
 
 export const AddJotButton = styled.TouchableOpacity`

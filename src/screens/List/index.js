@@ -3,6 +3,7 @@ import React, {useEffect} from 'react';
 import { Container, AddButton, ListContainer } from './styles';
 import { useStoreActions, useStoreState } from 'easy-peasy';
 import JotListItem from '../../components/JotListItem';
+import Header from '../../components/Header';
 
 const List = ({ navigation }) => {
 	const AddJotList = useStoreActions(actions => actions.jots.addJotList);
@@ -31,12 +32,14 @@ const List = ({ navigation }) => {
 	};
 
 	return (
-		<Container>
-			<ListContainer>
-				{RenderJotLists()}
-			</ListContainer>
-			<AddButton onPress={onAddJotList}/>
-		</Container>
+		<Header>
+			<Container>
+				<ListContainer>
+					{RenderJotLists()}
+				</ListContainer>
+				<AddButton onPress={onAddJotList}/>
+			</Container>
+		</Header>
 	);
 };
 
