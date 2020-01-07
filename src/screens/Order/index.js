@@ -6,6 +6,9 @@
 	import SortableList from 'react-native-sortable-list';
 	import UUID from 'uuid/v4';
 
+	import { View, TouchableOpacity } from 'react-native'
+import DraggableFlatList from 'react-native-draggable-flatlist'
+
 	const Order = ({ navigation }) => {
 		const jotLists = useStoreState(state => state.jots.jotLists);
 		const selectedJotList = useStoreState(state => state.jots.selectedJotList);
@@ -18,17 +21,36 @@
 			AddJot(currentJot);
 		}
 
+		const renderItem = ({ item, index, drag, isActive }) => {
+			return (
+				<TouchableOpacity
+					style={{ 
+						height: 100, 
+						backgroundColor: isActive ? 'blue' : 'purple',
+						alignItems: 'center', 
+						justifyContent: 'center' 
+					}}
+					onLongPress={drag}
+				>
+					<Text style={{ 
+						fontWeight: 'bold', 
+						color: 'white',
+						fontSize: 32,
+					}}>{item.jot}</Text>
+				</TouchableOpacity>
+			)
+		}
+
 		return (
 			<Container>
 				<JotWrapper>
-					{/* {jotLists[selectedJotList].jots.map(jot => {
-						return <JotItem jot={jot}/>;
-					})} */}
-					<SortableList
-					  style={{ flex: 1 }}
+				<DraggableFlatList
 						data={jotLists[selectedJotList].jots}
-						renderRow={JotItem}
-						/>
+						renderItem={renderItem}
+						keyExtractor={(item, index) => `draggable-item-${item.id}`}
+						scrollPercent={5}
+						onDragEnd={({ data }) => EditJot(data)}
+					/>
 				</JotWrapper>
 				<AddJotWrapper>
 					<AddJotText value={currentJot} onChange={(event) => setCurrentJot(event.nativeEvent.text)} />

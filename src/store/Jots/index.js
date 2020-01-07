@@ -20,7 +20,7 @@ const JotsActions = {
 		state.jotLists = {[UUID()]: newJotList, ...state.jotLists};
 	}),
 	addJot: action((state, payload) => {
-		state.jotLists[state.selectedJotList].jots.push(payload);
+		state.jotLists[state.selectedJotList].jots.push({ jot: payload, id: UUID() });
 	}),
 	editJot: action((state, payload) => {
 		state.jotLists[state.selectedJotList].jots = payload;
