@@ -3,23 +3,20 @@ import styled from 'styled-components/native';
 export const Container = styled.TouchableOpacity`
 	width: 100%;
 	height: 50px;
-	/* margin-bottom: 15px; */
-	/* padding: 0 20px; */
 `;
 
 export const Wrapper = styled.View`
-		/* background: lightgray; */
-		flex: 1;
-		width: 100%;
-		height: 100%;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-		padding: 0 30px;
-	
-		${props => props.isActive &&	`
-		background: purple;
-	`};
+	flex: 1;
+	width: 100%;
+	height: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 30px;
+
+	/* ${props => props.isActive &&	`
+		background: ${props.theme.brandColor};
+	`}; */
 `;
 
 export const Heading = styled.Text`
@@ -29,6 +26,6 @@ export const Heading = styled.Text`
 export const MoveIconWrapper = styled.View`
 	width: 30px;
 	height: 30px;
-	background: darkgray;
+	background: ${props => props.theme.darkGray};
 	border-radius: 15px;
 `;

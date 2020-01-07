@@ -1,6 +1,6 @@
 	/* eslint-disable prettier/prettier */
 	import React, {useState} from 'react';
-	import { Text, Button, Container, JotWrapper, AddJotWrapper, AddJotText, AddJotButton } from './styles';
+	import { Text, Button, Container, JotWrapper, AddJotWrapper, AddJotText, AddJotButton, BackButton } from './styles';
 	import { useStoreState, useStoreActions } from 'easy-peasy';
 	import JotItem from '../../components/JotItem';
 	import SortableList from 'react-native-sortable-list';
@@ -30,8 +30,16 @@ import Header from '../../components/Header';
 			SaveJotLists(jotLists);
 		}
 
+		const renderBackButton = () => {
+			return (
+				<BackButton onPress={() => navigation.goBack()}>
+
+				</BackButton>
+			)
+		};
+
 		return (
-			<Header>
+			<Header leftButton={renderBackButton}>
 				<Container>
 					<JotWrapper>
 					<DraggableFlatList

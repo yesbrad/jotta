@@ -24,18 +24,17 @@ export const AddJotText = styled.TextInput`
 	flex: 1;
 	width: 100%;
 	height: 100%;
-	background: lightgray;
+	background: ${props => props.theme.lightestGray};
 	border-radius: 30px;
 	margin-right: 10px;
 	padding-left:15px;
-	asdas;d
 `;
 
 export const AddJotButton = styled.TouchableOpacity`
 	width: 60px;
 	height: 60px;
 	/* flex: 1; */
-	background: purple;
+	background: ${props => props.theme.brandColor};;
 	border-radius: 30px;
 `;
 
@@ -47,4 +46,11 @@ export const Button = styled.TouchableOpacity`
 	width: 100px;
 	height: 50px;
 	background: red;
+`;
+
+export const BackButton = styled.TouchableOpacity`
+	width: 40px;
+	height: 40px;
+	background: ${props => props.theme.white};;
+	border-radius: 20px;
 `;

@@ -1,11 +1,19 @@
 import React from 'react';
-import {Container, MainContainer, CardContainer, HeaderWrapper, HeaderText} from './styles';
+import {Container, MainContainer, CardContainer, HeaderWrapper, HeaderText, HeaderButtonContainer, HeaderTitleWrapper} from './styles';
 
-const Header = ({children}) => {
+const Header = ({children, leftButton, rightButton}) => {
 	return (
 		<Container>
 			<HeaderWrapper>
-				<HeaderText>Jotta</HeaderText>
+				<HeaderButtonContainer>
+					{leftButton && leftButton()}
+				</HeaderButtonContainer>
+				<HeaderTitleWrapper>
+					<HeaderText>Jotta</HeaderText>
+				</HeaderTitleWrapper>
+				<HeaderButtonContainer>
+					{rightButton && rightButton()}
+				</HeaderButtonContainer>
 			</HeaderWrapper>
 			<MainContainer>
 				{children}
