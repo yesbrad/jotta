@@ -1,6 +1,7 @@
 import {action, thunk, debug} from 'easy-peasy';
 import UUID from 'uuid/v4';
 import AsyncStorage from '@react-native-community/async-storage';
+import { DefaultJotList } from '../../constants';
 
 const JOTLIST_SAVE_KEY = 'JotlidsdsDtKey';
 
@@ -16,17 +17,23 @@ const JotsActions = {
 		state.test = newNum;
 	}),
 	addJotList: action((state, payload) => {
-		const newJotList = {
-			title: 'Untitled Jot',
-			jots: [],
-		};
-		state.jotLists = {[UUID()]: newJotList, ...state.jotLists};
+		let newJot;
+
+		if(payload)
+			newJot = payload;
+		else
+			newJot = DefaultJotList;
+
+		state.jotLists = {[UUID()]: newJot, ...state.jotLists};
 	}),
 	addJot: action((state, payload) => {
 		state.jotLists[state.selectedJotList].jots.push({ jot: payload, id: UUID() });
 	}),
 	editJot: action((state, payload) => {
 		state.jotLists[state.selectedJotList].jots = payload;
+	}),
+	editSelectedJotList: action((state, payload) => {
+		state.jotLists[state.selectedJotList] = payload;
 	}),
 	selectJotList: action((state, payload) => {
 		state.selectedJotList = payload;

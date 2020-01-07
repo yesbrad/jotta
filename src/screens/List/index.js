@@ -36,7 +36,7 @@ const List = ({ navigation }) => {
 
 	const renderAddButton = () => {
 		return (
-			<AddButtonHeader onPress={() => onAddJotList()}>
+			<AddButtonHeader onPress={() => navigation.navigate('EditCreate')}>
 
 			</AddButtonHeader>
 		);

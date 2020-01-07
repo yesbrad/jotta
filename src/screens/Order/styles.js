@@ -47,10 +47,3 @@ export const Button = styled.TouchableOpacity`
 	height: 50px;
 	background: red;
 `;
-
-export const BackButton = styled.TouchableOpacity`
-	width: 40px;
-	height: 40px;
-	background: ${props => props.theme.white};;
-	border-radius: 20px;
-`;
