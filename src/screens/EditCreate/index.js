@@ -1,12 +1,13 @@
 /* eslint-disable prettier/prettier */
 import React, {useEffect, useState} from 'react';
-import { Container, AddButton, AddButtonWrapper, AddButtonText, NameInput, KeyboardAvoidingView } from './styles';
+import { Container, AddButton, AddButtonWrapper, AddButtonText, NameInput, KeyboardAvoidingView, TimingSlider, SettingWrapper, SettingTitle } from './styles';
 import { useStoreActions, useStoreState } from 'easy-peasy';
 import Header from '../../components/Header';
 import BackButton from '../../components/HeaderButton';
 import { DefaultJotList } from '../../constants';
+import { withTheme } from 'styled-components';
 
-const List = ({ navigation }) => {
+const List = ({ navigation, theme }) => {
 	const AddJotList = useStoreActions(actions => actions.jots.addJotList);
 	const EditSelectedJotList = useStoreActions(actions => actions.jots.editSelectedJotList);
 	const SaveJotLists = useStoreActions(actions => actions.jots.saveJotLists);
@@ -24,7 +25,7 @@ const List = ({ navigation }) => {
 
 	const onAddPressed = () => {
 		isEditing ? onEditJotList() : onAddJotList(); // or edit jot list
-		navigation.navigate('List');
+		isEditing ? navigation.navigate('Order') : navigation.navigate('List')
 	};
 
 	const onAddJotList = () => {
@@ -42,7 +43,21 @@ const List = ({ navigation }) => {
 		<Header leftButton={() => <BackButton icon="ios-arrow-back" onPress={() => navigation.goBack()}/>}>
 			<KeyboardAvoidingView  keyboardVerticalOffset={70} behavior="padding" enabled>
 				<Container>
-					<NameInput value={jotData.title} onChange={e => setJotData({ ...jotData, title: e.nativeEvent.text})}/>
+					<SettingWrapper>
+						<SettingTitle>Name</SettingTitle>
+						<NameInput value={jotData.title} onChange={e => setJotData({ ...jotData, title: e.nativeEvent.text})}/>
+					</SettingWrapper>
+					<SettingWrapper>
+					<SettingTitle>Spacer Location {jotData.spaceTiming}</SettingTitle>
+						<TimingSlider
+							value={jotData.spaceTiming}
+							onValueChange={e => setJotData({ ...jotData, spaceTiming: e})}
+							minimumValue={1}
+							maximumValue={10}
+							step={1}
+							minimumTrackTintColor={theme.brandColor}
+						/>
+					</SettingWrapper>
 				</Container>
 				<AddButtonWrapper>
 					<AddButton onPress={onAddPressed}><AddButtonText>{isEditing ? 'Edit' : 'Add'}</AddButtonText></AddButton>
@@ -52,4 +67,4 @@ const List = ({ navigation }) => {
 	);
 };
 
-export default List;
+export default withTheme(List);

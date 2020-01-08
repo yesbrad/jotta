@@ -4,6 +4,10 @@ import Icon from '../JIcon';
 export const Container = styled.TouchableOpacity`
 	width: 100%;
 	height: 50px;
+
+	${props => props.isSpaced && `
+		margin-bottom: 30px;
+	`};
 `;
 
 export const Wrapper = styled.View`
@@ -17,13 +21,16 @@ export const Wrapper = styled.View`
 	color: red;
 	padding-top: 20px;
 
-	/* ${props => props.isActive &&	`
-		background: ${props.theme.brandColor};
-	`}; */
+	${props => props.isActive &&	`
+		box-shadow: 0 10px 20px;
+	`};
+
 `;
 
 export const Heading = styled.Text`
 	font-size: 16px;
+
+
 `;
 
 export const MoveIconWrapper = styled.View`

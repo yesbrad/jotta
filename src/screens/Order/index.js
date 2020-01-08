@@ -34,6 +34,11 @@ const Order = ({ navigation }) => {
 		navigation.navigate('List');
 		SelectJotList('');
 	};
+
+	const renderJotItem = (e) => {
+		const yutr = e.index % jotLists[selectedJotList].spaceTiming === jotLists[selectedJotList].spaceTiming - 1;
+		return <JotItem {...e} isSpaced={yutr}/>
+	}
 	
 	return (
 		<Header 
@@ -45,7 +50,7 @@ const Order = ({ navigation }) => {
 					<JotWrapper>
 					{jotLists[selectedJotList] && <DraggableFlatList
 							data={jotLists[selectedJotList].jots}
-							renderItem={JotItem}
+							renderItem={(e) => renderJotItem(e)}
 							keyExtractor={(item, index) => `draggable-item-${item.id}`}
 							scrollPercent={5}
 							onDragEnd={({ data }) => onEditJot(data)}

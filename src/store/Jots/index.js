@@ -3,7 +3,7 @@ import UUID from 'uuid/v4';
 import AsyncStorage from '@react-native-community/async-storage';
 import { DefaultJotList } from '../../constants';
 
-const JOTLIST_SAVE_KEY = 'JotlidsdsDtKey';
+const JOTLIST_SAVE_KEY = 'JotlidsdsDdtKey';
 
 const JotsInitalStore = {
 	test: 0,

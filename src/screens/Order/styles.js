@@ -54,3 +54,4 @@ export const Button = styled.TouchableOpacity`
 export const KeyboardAvoidingView = styled.KeyboardAvoidingView`
 	flex: 1;
 `;
+
