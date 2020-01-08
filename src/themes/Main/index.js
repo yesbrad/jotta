@@ -1,5 +1,5 @@
 export const MainTheme = {
-	brandColor: '#be2edd',
+	brandColor: '#FF69B4',
 	lightGray: '#cccccc',
 	lightestGray: '#f0f0f0',
 	darkGray: '#696969',
