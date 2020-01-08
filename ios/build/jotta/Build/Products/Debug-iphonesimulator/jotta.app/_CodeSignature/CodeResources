@@ -8,13 +8,21 @@
 		<data>
 		TneGhDkoD7Q01Gl8e5EScUBsgfM=
 		</data>
+		<key>AppIcon60x60@3x.png</key>
+		<data>
+		cMwPN+qSAO9mQB7j5Ktv/VWvDrw=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		LCS4xQQ45GrJlQUSUdiUCwRGd7I=
+		</data>
 		<key>Base.lproj/LaunchScreen.nib/objects-13.0+.nib</key>
 		<data>
-		1diXHen+Hrt/Q2B9EhXnefFbvMg=
+		i6zaC/N+24YkRhPd4jJD/CrF1Go=
 		</data>
 		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
 		<data>
-		/VyM0NKR27w52gtFQNF4QKoDc94=
+		WDA/pfz4djz0mMb6+d3b+dwv36g=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -103,11 +111,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lsoBnQS6FYir2xY+CzbsGfc+Ivk=
+		P4YJxXJj3L+WZ6NYHjx58rH8Pbc=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
 		mRu3+slwnNWNo3kBdw79RwPFQu0=
+		</data>
+		<key>Jottaicon.png</key>
+		<data>
+		x5tgorhwCDRmUKiYRk8qEi7XNng=
 		</data>
 		<key>MaterialCommunityIcons.ttf</key>
 		<data>
@@ -131,7 +143,7 @@
 		</data>
 		<key>PlugIns/jottaTests.xctest.dSYM/Contents/Resources/DWARF/jottaTests</key>
 		<data>
-		l1MEGvmu9+LoNX24BitS9Hfafk0=
+		uieHG7pxELie0+6zN9rDAkbsxy4=
 		</data>
 		<key>PlugIns/jottaTests.xctest/Info.plist</key>
 		<data>
@@ -143,7 +155,7 @@
 		</data>
 		<key>PlugIns/jottaTests.xctest/jottaTests</key>
 		<data>
-		v4rDTPZi1+ruKH/3rh8OAhmokc4=
+		AHE4YB1jOVLlR664cgusanY+bkY=
 		</data>
 		<key>SimpleLineIcons.ttf</key>
 		<data>
@@ -167,26 +179,48 @@
 			eVXKFBJ7MEEsEU6xPP1wK12rJl/rGIDRaV1zyqgkzeE=
 			</data>
 		</dict>
+		<key>AppIcon60x60@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cMwPN+qSAO9mQB7j5Ktv/VWvDrw=
+			</data>
+			<key>hash2</key>
+			<data>
+			S/MWyGOjGEgpBAiGcV4zTsFXmL22Xyn1UbIHxE7bQ9o=
+			</data>
+		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LCS4xQQ45GrJlQUSUdiUCwRGd7I=
+			</data>
+			<key>hash2</key>
+			<data>
+			u4fqOr8VYKUIEYrFTzplsXHClnclFaUHYgWi6wkwM/0=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1diXHen+Hrt/Q2B9EhXnefFbvMg=
+			i6zaC/N+24YkRhPd4jJD/CrF1Go=
 			</data>
 			<key>hash2</key>
 			<data>
-			5sM7yUzOkNwf0Nag71Djy1O9Q1d1ws+tZ3HAsUzhSqI=
+			EotjbLI+6udSMrALW3j5dZiuipRbr8brHAwZ8CW0+8s=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/VyM0NKR27w52gtFQNF4QKoDc94=
+			WDA/pfz4djz0mMb6+d3b+dwv36g=
 			</data>
 			<key>hash2</key>
 			<data>
-			wfSPORGyq84dLK6OeiBhMQB2dIowNZ3gbYNhVauVznk=
+			KU//zrmGEpe0XoXA1/BIF219oF11LUricAtBOw1ymeA=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -422,6 +456,17 @@
 			INFzvLYFHQlzvgymqi+08npbKQ2AEGyyxWfI/cdyxxE=
 			</data>
 		</dict>
+		<key>Jottaicon.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			x5tgorhwCDRmUKiYRk8qEi7XNng=
+			</data>
+			<key>hash2</key>
+			<data>
+			intQvVe/8+WwzPxkjMmCOAJZzVANra+WpMQL1sccr3E=
+			</data>
+		</dict>
 		<key>MaterialCommunityIcons.ttf</key>
 		<dict>
 			<key>hash</key>
@@ -470,11 +515,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l1MEGvmu9+LoNX24BitS9Hfafk0=
+			uieHG7pxELie0+6zN9rDAkbsxy4=
 			</data>
 			<key>hash2</key>
 			<data>
-			gOaMRjNspDE2O3kZ+vm8/lUpPrOQDDOyK1nn3MubDAk=
+			vi/bWidKySffKvCGqmhGLMJlKGk+j/jmPIhj7PAEvZc=
 			</data>
 		</dict>
 		<key>PlugIns/jottaTests.xctest/Info.plist</key>
@@ -503,11 +548,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v4rDTPZi1+ruKH/3rh8OAhmokc4=
+			AHE4YB1jOVLlR664cgusanY+bkY=
 			</data>
 			<key>hash2</key>
 			<data>
-			gq1edx8w77VAA7a/fCyj208VGBVWp0JlHXqhX2vwPFY=
+			De33tmxDkt8p5gQjYwt/DKQqSXdbKvFITsbZk24u4D0=
 			</data>
 		</dict>
 		<key>SimpleLineIcons.ttf</key>

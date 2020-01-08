@@ -18,6 +18,7 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* jottaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* jottaTests.m */; };
+		78EC4A6723C5693300571368 /* Jottaicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 78EC4A6623C5693300571368 /* Jottaicon.png */; };
 		BD7F6CC5B016C4E756673C1A /* libPods-jotta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE535192291A51608B87989 /* libPods-jotta.a */; };
 		D9E95BFDB63C52CA0DDF4900 /* libPods-jottaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C807F844C059FA98E38B4B63 /* libPods-jottaTests.a */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		2DBA1FC975BF8F15BDA130B4 /* libPods-jotta-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jotta-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5783049C4AA6996778D3F32B /* Pods-jotta-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jotta-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jotta-tvOSTests/Pods-jotta-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		67E3537F743FDCD6A8563A9C /* Pods-jotta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jotta.release.xcconfig"; path = "Pods/Target Support Files/Pods-jotta/Pods-jotta.release.xcconfig"; sourceTree = "<group>"; };
+		78EC4A6623C5693300571368 /* Jottaicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jottaicon.png; sourceTree = "<group>"; };
 		7D9DBC22873727175BBA597A /* Pods-jotta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jotta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jotta/Pods-jotta.debug.xcconfig"; sourceTree = "<group>"; };
 		7F59E6ACEBDDF89AFC49EE3B /* Pods-jotta-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jotta-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-jotta-tvOSTests/Pods-jotta-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		89B8C4C8F7677E1431E4A361 /* libPods-jotta-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jotta-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +130,7 @@
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				78EC4A6623C5693300571368 /* Jottaicon.png */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
@@ -312,6 +315,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -341,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				78EC4A6723C5693300571368 /* Jottaicon.png in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
