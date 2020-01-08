@@ -55,3 +55,16 @@ export const KeyboardAvoidingView = styled.KeyboardAvoidingView`
 	flex: 1;
 `;
 
+export const NoJotWrapper = styled.View`
+	width: 100%;
+	height: 100%;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	/* border: 1px; */
+`;
+
+export const NoJotText = styled.Text`
+	/* border: 1px; */
+	color: ${props => props.theme.lightGray};
+`;

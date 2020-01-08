@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+import Icon from '../JIcon';
 
 export const Container = styled.TouchableOpacity`
 	width: 100%;
@@ -12,11 +13,16 @@ export const Wrapper = styled.View`
 	flex: 1;
 	background: ${props => props.theme.lightestGray};;
 	align-items:center;
-	justify-content: center;
+	justify-content: space-between;
 	border-radius: 30px;
-	padding: 0 10px;
+	padding: 0 20px;
+	flex-direction: row;
 `;
 
 export const Heading = styled.Text`
 	font-size: 16px;
+`;
+
+export const IconRight = styled(Icon)`
+	
 `;

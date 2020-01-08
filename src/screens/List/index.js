@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import React, {useEffect} from 'react';
-import { Container, AddButton, ListContainer, AddButtonHeader } from './styles';
+import { Container, AddButton, ListContainer, AddButtonHeader, NoJotWrapper, NoJotText } from './styles';
 import { useStoreActions, useStoreState } from 'easy-peasy';
 import JotListItem from '../../components/JotListItem';
 import Header from '../../components/Header';
@@ -31,9 +31,12 @@ const List = ({ navigation }) => {
 	return (
 		<Header rightButton={() => <HeaderButton icon="md-add" onPress={() => navigation.navigate('EditCreate')}/>}>
 			<Container>
-				<ListContainer>
+				{Object.keys(jotLists).length > 0 && <ListContainer>
 					{RenderJotLists()}
-				</ListContainer>
+				</ListContainer>}
+				{Object.keys(jotLists).length < 1 && <NoJotWrapper>
+					<NoJotText>Please add a list above. To begin jotting.</NoJotText>
+				</NoJotWrapper>}
 				{/* <AddButton onPress={onAddJotList}/> */}
 			</Container>
 		</Header>

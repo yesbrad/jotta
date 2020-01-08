@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import React, {useState, useEffect} from 'react';
-import { Text, Button, Container, JotWrapper, AddJotWrapper, AddJotText, AddJotButton, KeyboardAvoidingView } from './styles';
+import { Text, Button, Container, JotWrapper, AddJotWrapper, AddJotText, AddJotButton, KeyboardAvoidingView, NoJotText, NoJotWrapper } from './styles';
 import { useStoreState, useStoreActions } from 'easy-peasy';
 import JotItem from '../../components/JotItem';
 import BackButton from '../../components/HeaderButton';
@@ -20,6 +20,9 @@ const Order = ({ navigation }) => {
 	const [currentJot, setCurrentJot] = useState('');
 
 	const onAddJot = () => {
+		if(currentJot == '') 
+			return;
+
 		AddJot(currentJot);
 		SaveJotLists(jotLists);
 		setCurrentJot('');
@@ -48,13 +51,16 @@ const Order = ({ navigation }) => {
 			<KeyboardAvoidingView keyboardVerticalOffset={70} behavior="padding" enabled>
 				<Container>
 					<JotWrapper>
-					{jotLists[selectedJotList] && <DraggableFlatList
+					{(jotLists[selectedJotList] && jotLists[selectedJotList].jots.length > 0) && <DraggableFlatList
 							data={jotLists[selectedJotList].jots}
 							renderItem={(e) => renderJotItem(e)}
 							keyExtractor={(item, index) => `draggable-item-${item.id}`}
 							scrollPercent={5}
 							onDragEnd={({ data }) => onEditJot(data)}
 							/>}
+						{(jotLists[selectedJotList] && jotLists[selectedJotList].jots.length < 1) && <NoJotWrapper>
+							<NoJotText>No Jots added. Add one below!</NoJotText>	
+						</NoJotWrapper>}
 					</JotWrapper>
 					<AddJotWrapper>
 						<AddJotText
