@@ -6,6 +6,7 @@ import Header from '../../components/Header';
 import BackButton from '../../components/HeaderButton';
 import { DefaultJotList } from '../../constants';
 import { withTheme } from 'styled-components';
+import HeaderTitle from '../../components/HeaderTitle';
 
 const List = ({ navigation, theme }) => {
 	const AddJotList = useStoreActions(actions => actions.jots.addJotList);
@@ -42,6 +43,7 @@ const List = ({ navigation, theme }) => {
 	return (
 		<Header leftButton={() => <BackButton icon="ios-arrow-back" onPress={() => navigation.goBack()}/>}>
 			<KeyboardAvoidingView  keyboardVerticalOffset={70} behavior="padding" enabled>
+				<HeaderTitle title={isEditing ? "List Prefrences" : "Add List"} />
 				<Container>
 					<SettingWrapper>
 						<SettingTitle>Name</SettingTitle>

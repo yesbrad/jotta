@@ -18,6 +18,17 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* jottaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* jottaTests.m */; };
+		7809A19C23C59A450076820E /* PublicSans-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7809A19923C59A040076820E /* PublicSans-Black.otf */; };
+		7809A19E23C59A450076820E /* PublicSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7809A19323C599FF0076820E /* PublicSans-Bold.otf */; };
+		7809A1A023C59A450076820E /* PublicSans-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7809A19623C59A020076820E /* PublicSans-ExtraBold.otf */; };
+		7809A1A223C59A450076820E /* PublicSans-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7809A19023C599FD0076820E /* PublicSans-ExtraLight.otf */; };
+		7809A1A423C59A450076820E /* PublicSans-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7809A19523C59A010076820E /* PublicSans-Italic.otf */; };
+		7809A1A523C59A450076820E /* PublicSans-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7809A19223C599FF0076820E /* PublicSans-Light.otf */; };
+		7809A1A723C59A450076820E /* PublicSans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7809A18A23C599F90076820E /* PublicSans-Medium.otf */; };
+		7809A1A923C59A450076820E /* PublicSans.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7809A19823C59A030076820E /* PublicSans.otf */; };
+		7809A1AA23C59A450076820E /* PublicSans-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7809A19723C59A020076820E /* PublicSans-SemiBold.otf */; };
+		7809A1AC23C59A450076820E /* PublicSans-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7809A19123C599FE0076820E /* PublicSans-Thin.otf */; };
+		7809A1AE23C59B9E0076820E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7809A18823C5851B0076820E /* Launch Screen.storyboard */; };
 		78EC4A6723C5693300571368 /* Jottaicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 78EC4A6623C5693300571368 /* Jottaicon.png */; };
 		BD7F6CC5B016C4E756673C1A /* libPods-jotta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE535192291A51608B87989 /* libPods-jotta.a */; };
 		D9E95BFDB63C52CA0DDF4900 /* libPods-jottaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C807F844C059FA98E38B4B63 /* libPods-jottaTests.a */; };
@@ -58,6 +69,25 @@
 		2DBA1FC975BF8F15BDA130B4 /* libPods-jotta-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jotta-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5783049C4AA6996778D3F32B /* Pods-jotta-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jotta-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jotta-tvOSTests/Pods-jotta-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		67E3537F743FDCD6A8563A9C /* Pods-jotta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jotta.release.xcconfig"; path = "Pods/Target Support Files/Pods-jotta/Pods-jotta.release.xcconfig"; sourceTree = "<group>"; };
+		7809A18823C5851B0076820E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		7809A18A23C599F90076820E /* PublicSans-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-Medium.otf"; sourceTree = "<group>"; };
+		7809A18B23C599FA0076820E /* PublicSans-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-ThinItalic.otf"; sourceTree = "<group>"; };
+		7809A18C23C599FA0076820E /* PublicSans-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-BoldItalic.otf"; sourceTree = "<group>"; };
+		7809A18D23C599FB0076820E /* PublicSans-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-MediumItalic.otf"; sourceTree = "<group>"; };
+		7809A18E23C599FC0076820E /* PublicSans-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		7809A18F23C599FC0076820E /* PublicSans-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		7809A19023C599FD0076820E /* PublicSans-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-ExtraLight.otf"; sourceTree = "<group>"; };
+		7809A19123C599FE0076820E /* PublicSans-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-Thin.otf"; sourceTree = "<group>"; };
+		7809A19223C599FF0076820E /* PublicSans-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-Light.otf"; sourceTree = "<group>"; };
+		7809A19323C599FF0076820E /* PublicSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-Bold.otf"; sourceTree = "<group>"; };
+		7809A19423C59A000076820E /* PublicSans-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-LightItalic.otf"; sourceTree = "<group>"; };
+		7809A19523C59A010076820E /* PublicSans-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-Italic.otf"; sourceTree = "<group>"; };
+		7809A19623C59A020076820E /* PublicSans-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-ExtraBold.otf"; sourceTree = "<group>"; };
+		7809A19723C59A020076820E /* PublicSans-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-SemiBold.otf"; sourceTree = "<group>"; };
+		7809A19823C59A030076820E /* PublicSans.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PublicSans.otf; sourceTree = "<group>"; };
+		7809A19923C59A040076820E /* PublicSans-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-Black.otf"; sourceTree = "<group>"; };
+		7809A19A23C59A050076820E /* PublicSans-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		7809A19B23C59A060076820E /* PublicSans-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-BlackItalic.otf"; sourceTree = "<group>"; };
 		78EC4A6623C5693300571368 /* Jottaicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jottaicon.png; sourceTree = "<group>"; };
 		7D9DBC22873727175BBA597A /* Pods-jotta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jotta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jotta/Pods-jotta.debug.xcconfig"; sourceTree = "<group>"; };
 		7F59E6ACEBDDF89AFC49EE3B /* Pods-jotta-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jotta-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-jotta-tvOSTests/Pods-jotta-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,9 +162,28 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				78EC4A6623C5693300571368 /* Jottaicon.png */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				7809A19923C59A040076820E /* PublicSans-Black.otf */,
+				7809A19B23C59A060076820E /* PublicSans-BlackItalic.otf */,
+				7809A19323C599FF0076820E /* PublicSans-Bold.otf */,
+				7809A18C23C599FA0076820E /* PublicSans-BoldItalic.otf */,
+				7809A19623C59A020076820E /* PublicSans-ExtraBold.otf */,
+				7809A18E23C599FC0076820E /* PublicSans-ExtraBoldItalic.otf */,
+				7809A19023C599FD0076820E /* PublicSans-ExtraLight.otf */,
+				7809A18F23C599FC0076820E /* PublicSans-ExtraLightItalic.otf */,
+				7809A19523C59A010076820E /* PublicSans-Italic.otf */,
+				7809A19223C599FF0076820E /* PublicSans-Light.otf */,
+				7809A19423C59A000076820E /* PublicSans-LightItalic.otf */,
+				7809A18A23C599F90076820E /* PublicSans-Medium.otf */,
+				7809A18D23C599FB0076820E /* PublicSans-MediumItalic.otf */,
+				7809A19823C59A030076820E /* PublicSans.otf */,
+				7809A19723C59A020076820E /* PublicSans-SemiBold.otf */,
+				7809A19A23C59A050076820E /* PublicSans-SemiBoldItalic.otf */,
+				7809A19123C599FE0076820E /* PublicSans-Thin.otf */,
+				7809A18B23C599FA0076820E /* PublicSans-ThinItalic.otf */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				7809A18823C5851B0076820E /* Launch Screen.storyboard */,
 			);
 			name = jotta;
 			sourceTree = "<group>";
@@ -344,9 +393,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7809A1AE23C59B9E0076820E /* Launch Screen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				78EC4A6723C5693300571368 /* Jottaicon.png in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				7809A19C23C59A450076820E /* PublicSans-Black.otf in Resources */,
+				7809A19E23C59A450076820E /* PublicSans-Bold.otf in Resources */,
+				7809A1A023C59A450076820E /* PublicSans-ExtraBold.otf in Resources */,
+				7809A1A223C59A450076820E /* PublicSans-ExtraLight.otf in Resources */,
+				7809A1A423C59A450076820E /* PublicSans-Italic.otf in Resources */,
+				7809A1A523C59A450076820E /* PublicSans-Light.otf in Resources */,
+				7809A1A723C59A450076820E /* PublicSans-Medium.otf in Resources */,
+				7809A1A923C59A450076820E /* PublicSans.otf in Resources */,
+				7809A1AA23C59A450076820E /* PublicSans-SemiBold.otf in Resources */,
+				7809A1AC23C59A450076820E /* PublicSans-Thin.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,6 +749,7 @@
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = YKV2DJDHBY;
 				INFOPLIST_FILE = jotta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -712,6 +773,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YKV2DJDHBY;
 				INFOPLIST_FILE = jotta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",

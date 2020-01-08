@@ -24,8 +24,9 @@ export const HeaderTitleWrapper = styled.View`
 
 export const HeaderText = styled.Text`
 	color: white;
-	font-size: 24px;
-	font-weight: 700;
+	font-size: 28px;
+	font-weight: 900;
+	font-family: ${props => props.theme.mainFont};
 	/* border:1px; */
 `;
 

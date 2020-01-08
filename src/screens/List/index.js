@@ -5,6 +5,7 @@ import { useStoreActions, useStoreState } from 'easy-peasy';
 import JotListItem from '../../components/JotListItem';
 import Header from '../../components/Header';
 import HeaderButton from '../../components/HeaderButton';
+import HeaderTitle from '../../components/HeaderTitle';
 
 const List = ({ navigation }) => {
 	const LoadJotList = useStoreActions(actions => actions.jots.loadJotLists);
@@ -30,11 +31,12 @@ const List = ({ navigation }) => {
 
 	return (
 		<Header rightButton={() => <HeaderButton icon="md-add" onPress={() => navigation.navigate('EditCreate')}/>}>
+			<HeaderTitle title="Select" />
 			<Container>
-				{Object.keys(jotLists).length > 0 && <ListContainer>
+				{jotLists && Object.keys(jotLists).length > 0 && <ListContainer>
 					{RenderJotLists()}
 				</ListContainer>}
-				{Object.keys(jotLists).length < 1 && <NoJotWrapper>
+				{jotLists && Object.keys(jotLists).length < 1 && <NoJotWrapper>
 					<NoJotText>Please add a list above. To begin jotting.</NoJotText>
 				</NoJotWrapper>}
 				{/* <AddButton onPress={onAddJotList}/> */}

@@ -1,7 +1,6 @@
 import React from 'react';
 import { StoreProvider } from 'easy-peasy';
 import { ThemeProvider } from 'styled-components';
-import 'react-native-gesture-handler';
 import Navigation from './src/naviagtion';
 import Store from './src/store';
 /* eslint react/prop-types: 0 */

@@ -9,6 +9,7 @@ import { View, TouchableOpacity } from 'react-native'
 import DraggableFlatList from 'react-native-draggable-flatlist'
 import Header from '../../components/Header';
 import JIcon from '../../components/JIcon';
+import HeaderTitle from '../../components/HeaderTitle';
 
 const Order = ({ navigation }) => {
 	const jotLists = useStoreState(state => state.jots.jotLists);
@@ -48,6 +49,7 @@ const Order = ({ navigation }) => {
 			leftButton={() => <BackButton icon="ios-arrow-back" onPress={() => DeselectJotList()} />}
 			rightButton={() => <BackButton icon="md-settings" onPress={() => navigation.navigate('EditCreate', { CurrentJot: jotLists[selectedJotList]})} />}
 		>
+			<HeaderTitle title="Edit" />
 			<KeyboardAvoidingView keyboardVerticalOffset={70} behavior="padding" enabled>
 				<Container>
 					<JotWrapper>

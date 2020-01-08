@@ -9,7 +9,7 @@ export const Container = styled.ScrollView`
 
 export const SettingWrapper = styled.View`
 	width: 100%;
-	height: 180px;
+	height: 150px;
 	/* border: 1px; */
 	justify-content:center;
 	align-items: center;
@@ -19,10 +19,11 @@ export const SettingWrapper = styled.View`
 export const SettingTitle = styled.Text`
 	width: 100%;
 	text-align: left;
-	font-size: 28px;
+	font-size: 18px;
 	margin-bottom: 15px;
-	font-weight: 800;
-	color: ${props => props.theme.black};
+	font-weight: 400;
+	font-family: ${props => props.theme.mainFont};
+	color: ${props => props.theme.darkGray};
 `;
 
 export const AddButtonWrapper = styled.View`
@@ -48,7 +49,7 @@ export const AddButtonText = styled.Text`
 
 export const NameInput = styled.TextInput`
 	width: 100%;
-	height: 70px;
+	height: 60px;
 	border-radius: 40px;
 	border: 1px;
 	border-color: ${props => props.theme.lightGray};

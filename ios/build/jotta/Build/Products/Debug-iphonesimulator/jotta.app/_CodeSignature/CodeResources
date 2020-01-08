@@ -14,15 +14,15 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		LCS4xQQ45GrJlQUSUdiUCwRGd7I=
+		h+kAjEY2EsfxgvfOx2tBIob/Wh8=
 		</data>
 		<key>Base.lproj/LaunchScreen.nib/objects-13.0+.nib</key>
 		<data>
-		i6zaC/N+24YkRhPd4jJD/CrF1Go=
+		lX6LnA4w22jzaRn/xrShnaHPZTM=
 		</data>
 		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
 		<data>
-		WDA/pfz4djz0mMb6+d3b+dwv36g=
+		Dd4B6pIs790MWprihwoohYQpQyw=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -111,7 +111,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		P4YJxXJj3L+WZ6NYHjx58rH8Pbc=
+		axH5quryso0cs5jT0howgglbiU8=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -120,6 +120,26 @@
 		<key>Jottaicon.png</key>
 		<data>
 		x5tgorhwCDRmUKiYRk8qEi7XNng=
+		</data>
+		<key>Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib</key>
+		<data>
+		C/O4QcMn1iS7ZGarEBJWUeBQ4FQ=
+		</data>
+		<key>Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib</key>
+		<data>
+		LcT92gbuZ7aCuhygVUcv7LYfkU0=
+		</data>
+		<key>Launch Screen.storyboardc/Info.plist</key>
+		<data>
+		n2t8gsDpfE6XkhG31p7IQJRxTxU=
+		</data>
+		<key>Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib</key>
+		<data>
+		QS/LaR0m26ViMkFG8kKOz391LNc=
+		</data>
+		<key>Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib</key>
+		<data>
+		6LiseePb6ZQjW+o1uApGyhlctus=
 		</data>
 		<key>MaterialCommunityIcons.ttf</key>
 		<data>
@@ -155,7 +175,47 @@
 		</data>
 		<key>PlugIns/jottaTests.xctest/jottaTests</key>
 		<data>
-		AHE4YB1jOVLlR664cgusanY+bkY=
+		vKFqZMVLTgO3u0PxVdDFJYljUks=
+		</data>
+		<key>PublicSans-Black.otf</key>
+		<data>
+		AYok4RwyuIVDCpcfLFKGicxp5DI=
+		</data>
+		<key>PublicSans-Bold.otf</key>
+		<data>
+		+Qy+tuqNrCKw7GNKHdypxxAqpxA=
+		</data>
+		<key>PublicSans-ExtraBold.otf</key>
+		<data>
+		Xi+sca1qaq3wBBaDYEMKl+YrA7Y=
+		</data>
+		<key>PublicSans-ExtraLight.otf</key>
+		<data>
+		7zzUGMas1lyjjywHSQm3E3FdKqo=
+		</data>
+		<key>PublicSans-Italic.otf</key>
+		<data>
+		LYpjxT/5rwD+tTKZulOUJWVfYPY=
+		</data>
+		<key>PublicSans-Light.otf</key>
+		<data>
+		SV5BQzYAMmkbTwDFm4Y34sTFBEY=
+		</data>
+		<key>PublicSans-Medium.otf</key>
+		<data>
+		m649l7PX4OtnvKhEwtH+eGeQzlM=
+		</data>
+		<key>PublicSans-SemiBold.otf</key>
+		<data>
+		8qrwJ9w0rsFr4CfgHGNDTcPUK5U=
+		</data>
+		<key>PublicSans-Thin.otf</key>
+		<data>
+		/DaNS2LibTv/wsq4rDYP2a2+nL4=
+		</data>
+		<key>PublicSans.otf</key>
+		<data>
+		RSQcq26RhRcljiJtRgDD5JpHT7U=
 		</data>
 		<key>SimpleLineIcons.ttf</key>
 		<data>
@@ -194,33 +254,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LCS4xQQ45GrJlQUSUdiUCwRGd7I=
+			h+kAjEY2EsfxgvfOx2tBIob/Wh8=
 			</data>
 			<key>hash2</key>
 			<data>
-			u4fqOr8VYKUIEYrFTzplsXHClnclFaUHYgWi6wkwM/0=
+			LrCpDUYrKXfc9yNct2gIWLj7jJ7duMh/Fqf/Fsip6WU=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			i6zaC/N+24YkRhPd4jJD/CrF1Go=
+			lX6LnA4w22jzaRn/xrShnaHPZTM=
 			</data>
 			<key>hash2</key>
 			<data>
-			EotjbLI+6udSMrALW3j5dZiuipRbr8brHAwZ8CW0+8s=
+			4p90zq8eCv+MfaGjQ+fVPlxivgrQ6a1bJ9AMQMIJZak=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WDA/pfz4djz0mMb6+d3b+dwv36g=
+			Dd4B6pIs790MWprihwoohYQpQyw=
 			</data>
 			<key>hash2</key>
 			<data>
-			KU//zrmGEpe0XoXA1/BIF219oF11LUricAtBOw1ymeA=
+			QYp5hxLe0i66RFaMSLGCRF87SveCcLOs3Z6Mxu+T3jo=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -467,6 +527,61 @@
 			intQvVe/8+WwzPxkjMmCOAJZzVANra+WpMQL1sccr3E=
 			</data>
 		</dict>
+		<key>Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			C/O4QcMn1iS7ZGarEBJWUeBQ4FQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			ua6/Pu9qRjZh3rILnbndgQ4muq/NQ+sETxTriFFjq4Q=
+			</data>
+		</dict>
+		<key>Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LcT92gbuZ7aCuhygVUcv7LYfkU0=
+			</data>
+			<key>hash2</key>
+			<data>
+			zI+F0T7Aj4R5K/VThhBjFWkBL3zWJ3pvs5JLYoe0IBw=
+			</data>
+		</dict>
+		<key>Launch Screen.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n2t8gsDpfE6XkhG31p7IQJRxTxU=
+			</data>
+			<key>hash2</key>
+			<data>
+			HyVdXMU7Ux4/KalAao30mpWOK/lEPT4gvYN09wf31cg=
+			</data>
+		</dict>
+		<key>Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QS/LaR0m26ViMkFG8kKOz391LNc=
+			</data>
+			<key>hash2</key>
+			<data>
+			DUS589pHyg839b4SqBfxexjrzRpeVq7ewycf/EjZO6A=
+			</data>
+		</dict>
+		<key>Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6LiseePb6ZQjW+o1uApGyhlctus=
+			</data>
+			<key>hash2</key>
+			<data>
+			c8B7d7IId9NTsnT8L22W1JTWZ8tXsoShTVsAMIf6VGo=
+			</data>
+		</dict>
 		<key>MaterialCommunityIcons.ttf</key>
 		<dict>
 			<key>hash</key>
@@ -548,11 +663,121 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AHE4YB1jOVLlR664cgusanY+bkY=
+			vKFqZMVLTgO3u0PxVdDFJYljUks=
 			</data>
 			<key>hash2</key>
 			<data>
-			De33tmxDkt8p5gQjYwt/DKQqSXdbKvFITsbZk24u4D0=
+			jnBY+iY3vntgyF5LhLvYdMvm+PXXR5Re2e2cTJk9xJw=
+			</data>
+		</dict>
+		<key>PublicSans-Black.otf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AYok4RwyuIVDCpcfLFKGicxp5DI=
+			</data>
+			<key>hash2</key>
+			<data>
+			w9gJ78jrA4gGCrRmzmadYCt1iFZOiCSrDm0xjLGAqGw=
+			</data>
+		</dict>
+		<key>PublicSans-Bold.otf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+Qy+tuqNrCKw7GNKHdypxxAqpxA=
+			</data>
+			<key>hash2</key>
+			<data>
+			5D8SaKYNrY2kRwwDZE+3OEfRnw+WMH3Z7bOA73CQBR0=
+			</data>
+		</dict>
+		<key>PublicSans-ExtraBold.otf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Xi+sca1qaq3wBBaDYEMKl+YrA7Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			L1N64QeqjxCouAPGItkdqFBh41gTcCIUKRnLzaCO8LE=
+			</data>
+		</dict>
+		<key>PublicSans-ExtraLight.otf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7zzUGMas1lyjjywHSQm3E3FdKqo=
+			</data>
+			<key>hash2</key>
+			<data>
+			fxbzb0VfSNCPhqsdVPCCZ2wQ0/Rb1jWwF8OZGDtIKWk=
+			</data>
+		</dict>
+		<key>PublicSans-Italic.otf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LYpjxT/5rwD+tTKZulOUJWVfYPY=
+			</data>
+			<key>hash2</key>
+			<data>
+			ySJANn9KoX78OcPEB3r9MmAMu8wf2Spd+qjxpMUI1yI=
+			</data>
+		</dict>
+		<key>PublicSans-Light.otf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SV5BQzYAMmkbTwDFm4Y34sTFBEY=
+			</data>
+			<key>hash2</key>
+			<data>
+			vDVwdkPp60XwZyRAX8QXjLTChCyZtIclUTXGctkcgv0=
+			</data>
+		</dict>
+		<key>PublicSans-Medium.otf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			m649l7PX4OtnvKhEwtH+eGeQzlM=
+			</data>
+			<key>hash2</key>
+			<data>
+			aJ50xf6/XAe9zbeXaiqgdOd2jy2lIngrIvfhYWUyWj0=
+			</data>
+		</dict>
+		<key>PublicSans-SemiBold.otf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8qrwJ9w0rsFr4CfgHGNDTcPUK5U=
+			</data>
+			<key>hash2</key>
+			<data>
+			/oPFCoKAawsDjNxa2S/bA2d9fUL/NU1poXgoJjbSiUQ=
+			</data>
+		</dict>
+		<key>PublicSans-Thin.otf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/DaNS2LibTv/wsq4rDYP2a2+nL4=
+			</data>
+			<key>hash2</key>
+			<data>
+			OkQOVkEnDCbQ6wXczyCEHdB75V+LeBBRjH0JYo9zukg=
+			</data>
+		</dict>
+		<key>PublicSans.otf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RSQcq26RhRcljiJtRgDD5JpHT7U=
+			</data>
+			<key>hash2</key>
+			<data>
+			GKlFmyTfMhiWPIwQ3m5a0F07p8HJNcwB3QKDArCUstk=
 			</data>
 		</dict>
 		<key>SimpleLineIcons.ttf</key>
