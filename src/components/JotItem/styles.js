@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+import Icon from '../JIcon';
 
 export const Container = styled.TouchableOpacity`
 	width: 100%;
@@ -13,6 +14,8 @@ export const Wrapper = styled.View`
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 30px;
+	color: red;
+	padding-top: 20px;
 
 	/* ${props => props.isActive &&	`
 		background: ${props.theme.brandColor};
@@ -28,4 +31,7 @@ export const MoveIconWrapper = styled.View`
 	height: 30px;
 	background: ${props => props.theme.darkGray};
 	border-radius: 15px;
+`;
+
+export const IconMove = styled(Icon)`
 `;
