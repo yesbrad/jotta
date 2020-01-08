@@ -49,7 +49,7 @@ const Order = ({ navigation }) => {
 			leftButton={() => <BackButton icon="ios-arrow-back" onPress={() => DeselectJotList()} />}
 			rightButton={() => <BackButton icon="md-settings" onPress={() => navigation.navigate('EditCreate', { CurrentJot: jotLists[selectedJotList]})} />}
 		>
-			<HeaderTitle title="Edit" />
+			{/* {jotLists[selectedJotList] && <HeaderTitle title={jotLists[selectedJotList].title} />} */}
 			<KeyboardAvoidingView keyboardVerticalOffset={70} behavior="padding" enabled>
 				<Container>
 					<JotWrapper>

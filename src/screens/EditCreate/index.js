@@ -62,7 +62,7 @@ const List = ({ navigation, theme }) => {
 					</SettingWrapper>
 				</Container>
 				<AddButtonWrapper>
-					<AddButton onPress={onAddPressed}><AddButtonText>{isEditing ? 'Edit' : 'Add'}</AddButtonText></AddButton>
+					<AddButton onPress={onAddPressed}><AddButtonText>{isEditing ? 'Save' : 'Add'}</AddButtonText></AddButton>
 				</AddButtonWrapper>
 			</KeyboardAvoidingView>
 		</Header>

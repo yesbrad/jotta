@@ -9,7 +9,7 @@ export const Container = styled.TouchableOpacity`
 
 export const Title = styled.Text`
 	font-family: ${props => props.theme.mainFont};
-	font-size: 38px;
+	font-size: 34px;
 	text-align: left;
 	font-weight:800;
 	width: 100%;
