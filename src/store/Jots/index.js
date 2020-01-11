@@ -32,6 +32,18 @@ const JotsActions = {
 	editJot: action((state, payload) => {
 		state.jotLists[state.selectedJotList].jots = payload;
 	}),
+	editJotById: action((state, payload) => {
+		state.jotLists[state.selectedJotList].jots = payload; //TODO: FISH THIS
+	}),
+	deleteJot: action((state, payload) => {
+		let oldJots = state.jotLists[state.selectedJotList].jots;
+		oldJots = oldJots.filter((jot) => {
+			console.log('Found Jot', jot.id === payload);
+			return jot.id !== payload;
+		});
+		console.log(oldJots);
+		state.jotLists[state.selectedJotList].jots = oldJots;
+	}),
 	editSelectedJotList: action((state, payload) => {
 		state.jotLists[state.selectedJotList] = payload;
 	}),
